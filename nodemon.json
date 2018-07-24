@@ -1,0 +1,9 @@
+{
+  "env": {
+    "JWT_KEY": "secret",
+    "PUSHER_APP_ID":"497669",
+    "PUSHER_APP_KEY":"4b826d1ced0b76aba087",
+    "PUSHER_APP_SECRET":"641c218be0feb2ecf479",
+    "PUSHER_APP_CLUSTER":"eu"
+  }
+}

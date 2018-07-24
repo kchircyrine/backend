@@ -1,0 +1,37 @@
+[
+  {
+    "group": "admin",
+    "permissions": [
+      {
+        "resource": "*",
+        "methods": "*",
+        "action": "allow"
+      }
+    ]
+  },
+  {
+    "group": "Client",
+    "permissions": [
+      {
+        "resource": "/api/categories",
+        "methods": "*",
+        "action": "allow"
+      }
+    ]
+  },
+  {
+    "group": "anonymous",
+    "permissions": [
+      {
+        "resource": "/api/categories",
+        "methods": "*",
+        "action": "deny"
+      },
+      {
+        "resource": "/api/users/login",
+        "methods": "*",
+        "action": "allow"
+      }
+    ]
+  }
+]
